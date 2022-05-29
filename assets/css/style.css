@@ -1359,17 +1359,17 @@ section {
   color: #0a98c0;
 }
 
-audio::-webkit-media-controls-play-button,
-     audio::-webkit-media-controls-panel {
+video::-webkit-media-controls-play-button,
+     video::-webkit-media-controls-panel {
      background-color: #1bb1dc;
      color: #ffffff;
      }
-audio::-webkit-media-controls-play-button {
+video::-webkit-media-controls-play-button {
   background-color: #B1D4E0;
   border-radius: 50%;
 }
 
-audio::-webkit-media-controls-play-button:hover {
+video::-webkit-media-controls-play-button:hover {
   background-color: rgba(177,212,224, .7);
 }
 
