@@ -1373,4 +1373,20 @@ section {
 }
 
 
+.soundcloud-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+    overflow: hidden;
+}
+
+.soundcloud-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
